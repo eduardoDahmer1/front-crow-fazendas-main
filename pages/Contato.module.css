@@ -1,0 +1,256 @@
+
+.CellLineHeight {
+  line-height: 0.7em;
+}
+.LogoFazendas {
+  width: 12em;
+  height: auto;
+}
+.IconesHeader {
+  font-size: 1.2em;
+  margin-right: 0.2em;
+}
+.MenuIco {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0 auto;
+  display: flex;
+  padding-left: 0;
+  padding-right: 0;
+}
+.MarginHome {
+  margin-right: 1em;
+  color: rgb(231, 249, 255) !important;
+}
+.IcoHome {
+  margin-right: 0.4em;
+  font-size: 1.1em;
+}
+.Textotitulo {
+  color: #a98263;
+  margin-left: 1em;
+}
+.ContainerImagemFundo {
+  background-size: 50%;
+  height: 75vh;
+  width: 100%;
+}
+.TituloPaginaInterna {
+  margin-top: 7em;
+  text-align: center;
+}
+.TituloInterna {
+  font-size: 3em;
+  color: white;
+  font-weight: 600;
+}
+.InicioBarra {
+  margin-top: 1em;
+  justify-content: center;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+}
+.ContainerContacts {
+  top: 4em;
+  position: relative;
+}
+.TituloContacts {
+  align-items: flex-end;
+  display: flex;
+}
+.PalhaPhoto {
+  width: 1.5em;
+}
+.CardColor {
+  background-color: #151515;
+  width: 15rem;
+  color: white;
+}
+.CardBody {
+  height: 14em;
+}
+.TitulosContatos {
+  color: white;
+  /* border-bottom: 5px solid #a98263; */
+  width: 9em;
+  margin: 1px;
+}
+.seçaoHeaderSecondary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)),
+    url("/Farmer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+.IcoContacts {
+  border: 1px solid #a98263;
+  width: 5em;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 6em;
+  background: #a98263;
+}
+.icoContato {
+  color: white;
+  font-size: 2em;
+}
+.CardsContacts {
+  z-index: 999;
+  margin-right: -2em;
+}
+.CardColor {
+  background-color: #151515;
+  width: 15rem;
+  color: white;
+}
+.CardBody {
+  height: 14em;
+}
+.IcoContacts {
+  border: 1px solid #a98263;
+  width: 5em;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 6em;
+  background: #a98263;
+}
+.textmuted {
+  --bs-text-opacity: 1;
+  color: white !important;
+  margin-top: 0.3em;
+}
+.CardPhoto {
+  position: absolute;
+  right: 27%;
+  top: 0;
+}
+.textContacts {
+  width: 31em;
+  margin-top: 2em;
+}
+.paddHeader {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.CardPhotoDimension {
+  height: 50vh;
+  border: none;
+}
+.PhotoDimension {
+  height: 100%;
+  width: 145%;
+}
+
+@media (max-width: 775px) {
+  .CardPhoto {
+    display: none;
+  }
+  .paddHeader {
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .seçaoHeaderSecondary {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)),
+      url("/farminha.avif");
+    background-size: cover;
+    background-position: center;
+    height: 31em;
+  }
+  .textContacts {
+    width: 100%;
+    margin-top: 0;
+  }
+  .IcoContacts {
+    border: 1px solid #a98263;
+    width: 8em;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6em;
+    background: #a98263;
+  }
+  .CardBody {
+    height: 17em;
+    width: 18em;
+  }
+  .CardColor {
+    background-color: #151515;
+    width: 92%;
+    color: white;
+  }
+  .CardsContacts {
+    z-index: 999;
+    margin: 5px;
+  }
+  .NavHeader {
+    display: none;
+  }
+  .TitulosContatos {
+    color: white;
+    width: 9em;
+  }
+  .icoContato {
+    color: white;
+    font-size: 4em;
+  }
+  .CardColor {
+    background-color: #151515;
+    width: 92%;
+    color: white;
+  }
+  .CardBody {
+    height: 17em;
+    width: 18em;
+  }
+  .ContainerContacts {
+    top: 0em;
+    position: relative;
+  }
+  .IcoContacts {
+    border: 1px solid #a98263;
+    width: 8em;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 6em;
+    background: #a98263;
+  }
+  .CardsContacts {
+    z-index: 999;
+    margin: 5px;
+  }
+  .InicioBarra {
+    margin-top: 1em;
+    justify-content: center;
+    display: flex;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+  }
+  .ContainerImagemFundo {
+    background-size: 200%;
+    height: 67em;
+    width: 100%;
+  }
+  .MenuIco {
+    justify-content: flex-end;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+  }
+}
+@media (min-width: 775px) {
+}

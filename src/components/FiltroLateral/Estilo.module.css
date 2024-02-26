@@ -1,0 +1,158 @@
+button.FiltroFazendas {
+  margin-top: 1em;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  border-radius: 3em;
+  width: 9em;
+}
+.inputRange{
+  border: none;
+  width: 100%;
+  accent-color: rgb(169, 130, 99);
+  flex-direction: row-reverse;
+  
+}
+.inputRange:focus{
+  border: none;
+  width: 100%;
+  accent-color: rgb(169, 130, 99);
+}
+.inputRangeLeft{
+  border: none;
+  width: 100%;
+  accent-color: rgb(169, 130, 99);
+  flex-direction: row-reverse;
+  direction: rtl;
+}
+.inputRangeLeft:focus{
+  border: none;
+  width: 100%;
+  accent-color: rgb(169, 130, 99);
+}
+.rangeInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  height: 0.4em;
+  background-color: white;
+  border-radius: 4em;
+}
+
+.inputNumber {
+  width: 100%;
+  background-color: white;
+  padding: 0.2em;
+  border-radius: 0.3em;
+  border: none;
+  color: black;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.row .col .form-control {
+  appearance: textfield !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: textfield !important;
+}
+.rangeLabel {
+  margin-right: 20px;
+}
+button.FiltroFazendas:hover {
+  margin-top: 1em;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  border-radius: 3em;
+  width: 9em;
+}
+#ModalFiltros {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+  transform: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  height: 100%;
+  background-color: #151515 !important;
+}
+#TituloFiltro {
+  color: white;
+}
+.LabelInputFiltro {
+  margin-right: 0.5em;
+}
+.FiltroLateral {
+  background: white;
+  border: none;
+  color: black;
+  width: 50%;
+  margin: 0.2em;
+  padding: 1em !important;
+  font-size: 90%;
+}
+.SubmitFiltro {
+  background-color: transparent;
+  border-bottom: 1px solid white !important;
+  border: none;
+  border-radius: 0;
+  color: white;
+}
+.SubmitFiltro:focus {
+  background-color: transparent;
+  border-bottom: 1px solid white !important;
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-radius: 0;
+  color: white;
+}
+#ModalBodyFiltro {
+  height: 100%;
+}
+#CorpoInputFiltro {
+  height: 100%;
+  background: #151515;
+  padding: 1em;
+}
+.FormEspacing {
+  justify-content: space-around;
+  display: grid;
+  height: 100vh;
+}
+.BotoesFiltro {
+  display: flex;
+  height: 8vh;
+  width: 92%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 775px) {
+  .FiltroLateral {
+    background: white;
+    border: none;
+    color: black;
+    width: 50%;
+    margin: 0.2em;
+    padding: 1em !important;
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 775px) {
+}
+@media (max-width: 550px) {
+  .BotoesFiltro {
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

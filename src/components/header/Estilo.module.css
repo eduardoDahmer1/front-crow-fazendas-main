@@ -1,0 +1,64 @@
+.seçaoHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.676)),
+    url("/Farmer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  min-height: 80vh;
+}
+.paddHeader {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.CellLineHeight{
+  line-height: 0.7em;
+}
+.LogoFazendas {
+  width: 12em;
+  height: auto;
+}
+
+.IconesHeaderPhone {
+  font-size: 2em;
+  margin-right: 0.2em;
+}
+.IconesHeader {
+  font-size: 1.2em;
+  margin-right: 0.2em;
+}
+
+.NavHeader{
+    align-items: center;
+}
+@media (max-width: 775px) {
+  .paddHeader {
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+  .MenuIco {
+    justify-content: flex-end;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+  }
+  .NavHeader {
+    display: none;
+  }
+}
+@media (min-width: 775px) {
+}
+@media (max-width: 1084px) {
+  .seçaoHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)),
+      url("/farminha.avif");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+}

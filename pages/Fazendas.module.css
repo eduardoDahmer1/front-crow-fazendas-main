@@ -1,0 +1,13 @@
+.NavegaçãoLinks {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 1em;
+    background-color: rgba(24, 24, 24, 0.4);
+  }
+
+  @media(max-width:775px){
+    .NavegaçãoLinks {
+        display: none;
+      }
+  }

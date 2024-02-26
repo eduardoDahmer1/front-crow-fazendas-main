@@ -1,0 +1,348 @@
+.ScrollImages {
+  height: 21em;
+  max-height: 50vh;
+  max-width: 2000px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: auto;
+  flex-direction: column;
+  margin-left: auto;
+  margin-left: auto;
+  margin-left: -2em;
+}
+.IcoWppInterna {
+  font-size: 1.1em;
+}
+
+.DescriptionFazenda {
+  width: 100%;
+  color: rgb(168, 168, 168);
+}
+.SobreApropriedade {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+}
+.SobreApropriedade {
+  border-bottom: 1px solid #313131;
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+}
+.priceMobile {
+  font-weight: bold;
+}
+
+.TamanhoGaleria {
+  width: 100%;
+  height: 35vh;
+}
+.GaleriaInterna {
+  border: 2px solid #282828;
+  padding-left: 0;
+  padding-right: 0;
+}
+.PhotosGaleria {
+  text-align: center;
+  color: white;
+  border: 1px solid #a98263;
+  background-color: #a98263;
+  width: 5em;
+  margin: 0 auto;
+  border-radius: 1em;
+  font-weight: 300;
+  margin-bottom: 0.2em;
+  font-size: 1.5em;
+}
+
+#CorpoGaleria {
+  background-color: #282828 !important;
+  border: none;
+}
+.espaçamentoTitulo {
+  justify-content: flex-start;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0;
+  padding-right: 0;
+}
+.NavegaçãoLinks {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 1em;
+  background-color: rgba(24, 24, 24, 0.4);
+}
+.espaçamentoTitulo {
+  justify-content: flex-start;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0;
+  padding-right: 0;
+}
+.WhatsappPagInterna {
+  padding: 1em;
+  background: #4ee65f;
+  border-radius: 0.3em;
+  font-size: 1.2em;
+  color: white;
+}
+.TextoStyleFazenda {
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 1em;
+}
+.PricePagFazenda {
+  text-align: end;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ColunaGaleria {
+  height: 30em;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ColunaGaleriaTwo {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 21em 21em;
+  grid-template-rows: 15em 15em;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ButtonOneGaleriaTwo {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  padding: 0;
+}
+.ButtonOneGaleriaTwo:focus {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  padding: 0;
+}
+.ButtonOneGaleriaOne:hover {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.ButtonOneGaleriaOne:focus {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+.ButtonOneGaleriaOne {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.priceDesktop {
+  font-weight: bold;
+}
+.GaleriaGridColunaOne {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.GaleriaGridColunaOne:focus {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.GaleriaGridColunaOne:hover {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.GaleriaGrid {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.BotaoBlur {
+  top: 7em;
+  position: absolute;
+  left: 7em;
+  border: 1px solid white;
+  padding: 0.7em;
+  border-radius: 3em;
+}
+#ModalHeaderGaleria {
+  color: black;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  right: 4em;
+}
+.linkModalHeader:hover {
+  color: black;
+}
+.linkModalHeader {
+  border: 1px solid #a98263;
+  padding: 0.3em;
+  background-color: #a98263;
+  border-radius: 0.5em;
+  font-weight: 300;
+  color: white;
+}
+.linkModalHeaderMobile:hover {
+  color: black;
+}
+.linkModalHeaderMobile {
+  border: 1px solid #a98263;
+  padding: 0.3em;
+  background-color: #a98263;
+  border-radius: 0.5em;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.BotaoBlur:hover {
+  top: 7em;
+  position: absolute;
+  left: 7em;
+  border: 1px solid rgba(255, 255, 255, 0.772);
+  padding: 0.7em;
+  border-radius: 3em;
+  color: rgba(255, 255, 255, 0.772);
+}
+#headerGaleria {
+  background-color: #282828 !important;
+  border: none;
+}
+@media (max-width: 775px) {
+  .ScrollImages {
+    height: 16em;
+    max-height: 50vh;
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    margin: auto;
+    margin-left: auto;
+    flex-direction: column;
+    margin-left: auto;
+    margin-left: -2em;
+  }
+  .linkModalHeaderMobileFooter {
+    background-color: #a98263;
+  }
+  .NavegaçãoLinks {
+    display: none;
+  }
+  .ButtonOneGaleriaTwo {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+  }
+  .GaleriaGrid {
+    width: 15em;
+    height: 10em;
+    border: 1px solid black;
+  }
+  .GaleriaGrid:focus {
+    width: 15em;
+    height: 10em;
+    border: 1px solid black;
+  }
+  .ButtonOneGaleriaTwo:focus {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+  }
+  .priceDesktop {
+    display: none;
+  }
+  .TextoFazenda {
+    width: 100%;
+  }
+  .TextoStyleFazenda {
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding: 0.4em;
+  }
+  .ContainerFazendas {
+    margin-top: 5em;
+  }
+  .css-1p5q5e5-MuiStack-root {
+    display: none;
+  }
+  .WhatsappPagInterna {
+    padding: 1em;
+    background: #4ee65f;
+    border-radius: 0.3em;
+    font-size: 1em;
+    color: white;
+    align-content: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 55vw;
+  }
+  .BotaoBlur {
+    top: 6em;
+    position: absolute;
+    left: 7em;
+    border: 1px solid white;
+    padding: 0.7em;
+    border-radius: 3em;
+  }
+  .BotaoBlur:hover {
+    top: 6em;
+    position: absolute;
+    left: 7em;
+    border: 1px solid white;
+    padding: 0.7em;
+    border-radius: 3em;
+  }
+  .DescriptionFazenda {
+    width: 100%;
+  }
+  .ColunaGaleriaTwo {
+    height: 14em;
+    max-height: 50vh;
+    max-width: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: auto;
+    margin: auto;
+    margin-left: -2em;
+  }
+  .ColunaGaleria {
+    display: none;
+  }
+  .TamanhoGaleria {
+    width: 100%;
+    height: 30vh;
+  }
+  .linkModalHeader {
+    display: none;
+  }
+}
+@media (min-width: 775px) {
+  .linkModalHeaderMobileFooter {
+    display: none;
+  }
+}
+@media (min-width: 1084px) {
+  .priceMobile {
+    display: none;
+  }
+}

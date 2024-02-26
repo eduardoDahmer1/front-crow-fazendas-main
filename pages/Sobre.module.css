@@ -1,0 +1,203 @@
+.CellLineHeight{
+  line-height: 0.7em;
+}
+.seçaoHeaderSecondary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)),
+    url("/Farmer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+.paddHeader {
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.LogoFazendas {
+  width: 12em;
+  height: auto;
+}
+
+.IconesHeader {
+  font-size: 1.2em;
+  margin-right: 0.2em;
+}
+.IconesHeaderPhone {
+  font-size: 2em;
+  margin-right: 0.2em;
+}
+
+.TituloPaginaInterna {
+  margin-top: 7em;
+  text-align: center;
+}
+
+.TituloInterna {
+  font-size: 3em;
+  color: white;
+  font-weight: 600;
+}
+.InicioBarra {
+  margin-top: 1em;
+  justify-content: center;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+}
+.MarginHome {
+  margin-right: 1em;
+  color: rgb(231, 249, 255) !important;
+}
+.IcoHome {
+  margin-right: 0.4em;
+  font-size: 1.1em;
+}
+.Textotitulo {
+  color: #a98263;
+  margin-left: 1em;
+}
+.ContainerImagemFundo {
+  background-size: 50%;
+  height: 75vh;
+  width: 100%;
+}
+.ContainerSobre {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.BoxPrincipalSobre {
+  width: 54%;
+  height: 60%;
+  border: 2px solid #151515;
+  background: #151515;
+  border-radius: 0.5rem;
+  padding: 2em 18em 8em 1em;
+  position: absolute;
+  left: 9em;
+  top: 11em;
+}
+.CardBody {
+  height: 14em;
+}
+.TituloSobre {
+  color: white;
+  margin: 1px;
+}
+
+.CardImageSobre {
+  border: none;
+}
+.NavHeader {
+  align-items: center;
+}
+.FazendeiroFotoTwo {
+  display: flex;
+  position: relative;
+  left: 19em;
+  z-index: 999;
+  top: -3em;
+}
+.FazendeiroTamanho {
+  z-index: 998;
+  position: absolute;
+  border-radius: 0.4em;
+  width: 20em;
+  left: 2em;
+}
+.ImagemRedonda {
+  border-radius: 100%;
+  height: 10em;
+  width: 10em;
+}
+.CardRedondo {
+  border-radius: 19em;
+  padding: 0.5em;
+  background: #282828;
+  border: none;
+}
+@media (max-width: 775px) {
+    .MenuIco {
+        justify-content: flex-end;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 0;
+    }
+  .ImagemRedonda {
+    border-radius: 0.2em;
+    height: 15em;
+    width: 100%;
+  }
+  .FazendeiroFotoTwo {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 37em;
+  }
+  .CardRedondo {
+    border-radius: 0;
+    padding: 0.5em;
+    background: #282828;
+    border: none;
+    margin-top: 1em;
+  }
+  .FazendeiroFotoOne {
+    display: none;
+  }
+  .CardBody {
+    height: 17em;
+    width: 18em;
+  }
+  .TituloSobre {
+    color: white;
+    margin: 0 auto;
+    font-size: 2em;
+  }
+  .BoxPrincipalSobre {
+    width: 54%;
+    height: 53%;
+    border: 2px solid #151515;
+    background: #151515;
+    border-radius: 0.5rem;
+    padding: 4em 4em 7em;
+    top: -13em;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+  }
+  .seçaoHeaderSecondary {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)),
+      url("/farminha.avif");
+    background-size: cover;
+    background-position: center;
+    height: 31em;
+  }
+  .paddHeader {
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .ContainerImagemFundo {
+    background-size: 200%;
+    height: 67em;
+    width: 100%;
+  }
+  .NavHeader {
+    display: none;
+  }
+}
+@media (min-width: 775px) {
+}

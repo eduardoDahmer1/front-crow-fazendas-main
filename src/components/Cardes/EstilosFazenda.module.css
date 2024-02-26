@@ -1,0 +1,196 @@
+.PaginateButtons {
+  flex-direction: row;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  list-style: none;
+  margin-top: 3em;
+}
+.linkHome {
+  margin-left: 1em;
+}
+.LinksHome {
+  color: #eee;
+}
+
+.HomeAndCod {
+  margin-top: 2em;
+}
+.textoCodigoDesktop {
+  align-items: center;
+}
+.TextoStyleFazenda {
+  font-size: 2em;
+  font-weight: 500;
+  margin-top: 1em;
+}
+.TextoStyleFazenda {
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding: 0.4em;
+}
+.EspaçamentoNav {
+  padding: 1em 0em 1em 0em;
+}
+.TextoCodigo {
+  text-align: end;
+  margin-bottom: 1em;
+}
+.divTitlefazendas {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  background: #191919;
+  font-weight: bold;
+  height: 14em;
+  justify-content: space-between;
+  display: flex;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 48%;
+}
+.PriceFazendas {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+.subFazendas {
+  color: #8a8a8a;
+  font-size: 1em;
+  font-weight: 600;
+}
+.CardeProductssFazenda {
+  max-height: 100%;
+  height: 100%;
+}
+.textoParagrafoFazendasPrimeira {
+  font-weight: 600;
+  color: white;
+}
+.subFazendas {
+  color: #8a8a8a;
+  font-size: 1em;
+  font-weight: 600;
+}
+.ImagemSliderr {
+  position: absolute;
+  height: 13em;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.LinkFazendaFazenda {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  height: 17em;
+}
+.StyleButtonsPaginate {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border: 1px solid #191919;
+  margin: 0.2em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: #191919;
+}
+.StyleButtonsPaginateSelected {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border: 1px solid #a98263;
+  margin: 0.2em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: #a98263;
+}
+.StyleButtonsPaginateSelected:hover {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border: 1px solid #a98263;
+  margin: 0.2em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: #a98263;
+}
+.StyleButtonsPaginate:hover {
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border: 1px solid #a98263;
+  margin: 0.2em;
+  border-radius: 0.3em;
+  color: white;
+  background-color: #a98263;
+}
+
+@media (max-width: 775px) {
+  .divTitlefazendas {
+    width: 100%;
+    padding: 1.25rem 1rem;
+    background: #191919;
+    font-weight: bold;
+    height: 14em;
+    justify-content: space-between;
+    display: flex;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 40%;
+  }
+  .TextoCodigo {
+    text-align: end;
+  }
+  .PaginateButtons {
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    list-style: none;
+    margin-top: 3em;
+  }
+  .StyleButtonsPaginate {
+    padding: 0.8em;
+    border: 1px solid #191919;
+    margin: 0.2em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #191919;
+  }
+  .StyleButtonsPaginate:hover {
+    padding: 0.8em;
+    border: 1px solid #a98263;
+    margin: 0.2em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #a98263;
+  }
+  .StyleButtonsPaginateSelected {
+    padding: 0.8em;
+    border: 1px solid #191919;
+    margin: 0.2em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #191919;
+  }
+  .StyleButtonsPaginateSelected:hover {
+    padding: 0.8em;
+    border: 1px solid #a98263;
+    margin: 0.2em;
+    border-radius: 0.3em;
+    color: white;
+    background-color: #a98263;
+  }
+
+}
+@media (min-width: 775px) {
+}
+@media(max-width:1000px){
+  .PriceFazendas {
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+  }
+}

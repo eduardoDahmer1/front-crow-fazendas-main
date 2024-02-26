@@ -1,0 +1,62 @@
+.ContainerFooter {
+  background-color: #232323;
+}
+.ContainerFooterInterno {
+  padding: 5em 1em 5em 1em;
+}
+.FaleConosco {
+  flex-direction: column;
+  display: flex;
+}
+.FooterTitler {
+  color: white;
+  margin-bottom: 0.5em;
+}
+.HeartFooter {
+  color: red;
+}
+.FooterCopRight {
+  background-color: #282828;
+}
+.CopFooter {
+  text-align: center;
+  padding: 1em;
+  justify-content: space-between;
+  display: flex;
+  background: #282828;
+}
+.MarkAsCrowtech {
+  background-color: transparent;
+  color: #8d0194;
+}
+.instagramIcoFooter {
+  padding: 0.3em;
+  border: 1px solid white;
+  border-radius: 100%;
+  align-content: center;
+  position: absolute;
+  display: flex;
+}
+@media (max-width: 775px) {
+  .ContainerFooterInterno {
+    padding: 1em;
+  }
+  .instagramIcoFooter {
+    padding: 0.3em;
+    border: 1px solid white;
+    border-radius: 100%;
+    align-content: center;
+    position: relative;
+    display: flex;
+  }
+  .ContainerFooter {
+    background-color: #232323;
+    padding: 0;
+  }
+  .spaceCols {
+    margin: 0.6rem;
+    width: 90%;
+  }
+}
+@media (min-width: 775px) {
+}

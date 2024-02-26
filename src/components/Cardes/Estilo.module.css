@@ -1,0 +1,117 @@
+.OportunidadeLink {
+  color: white;
+}
+.Oportunidade {
+  text-align: center;
+  padding: 2em;
+}
+.divTitlefazendas {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  background: #191919;
+  font-weight: bold;
+  height: 14em;
+  justify-content: space-between;
+  display: flex;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 26vh;
+}
+.CardeProductss {
+  max-height: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+.CardeProductssFazenda {
+  max-height: 100%;
+  height: 100%;
+}
+.CardeProductss.card {
+  --bs-card-bg: transparent;
+}
+.LinkFazendaHome {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  height: 17em;
+}
+.ImagemSlider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.ImagemSliderr {
+  position: absolute;
+  height: 13em;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+.divTitle {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.82);
+  font-weight: bold;
+  height: 5em;
+  align-items: center;
+}
+.divTitlefazendas {
+  width: 100%;
+  padding: 1.25rem 1rem;
+  background: #191919;
+  font-weight: bold;
+  height: 14em;
+  justify-content: space-between;
+  display: flex;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 26vh;
+}
+.TituloFazenda {
+  color: #000000;
+  font-size: 1em;
+  max-height: 4em;
+  font-weight: 600;
+}
+.TituloFazendas {
+  color: white;
+  font-size: 1em;
+  max-height: 3.2em;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.subFazendas {
+  color: #8a8a8a;
+  font-size: 1em;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+@media (max-width: 775px) {
+}
+@media (min-width: 775px) {
+}

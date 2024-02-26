@@ -1,0 +1,104 @@
+.asideMenu {
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  border: 1px solid black;
+  height: 100%;
+  align-items: flex-end;
+  background-color: #191919;
+  color: white;
+}
+.ColorTextMenu {
+  color: #a98263 !important;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.ColorTextMenu:hover {
+  color: white !important;
+  font-size: 1.4em;
+  background-color: #a98263;
+}
+.CrowMenu {
+  color: #a98263;
+}
+.FooterMenu .iconesFooter {
+  color: white;
+  margin: 0.3em;
+}
+.FooterMenu .iconesFooter:hover {
+  color: white;
+}
+.ColorTextMenu {
+  color: #a98263 !important;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.ColorTextMenu:hover {
+  color: white !important;
+  font-size: 1.4em;
+  background-color: #a98263;
+}
+.icoFooter {
+  color: white;
+}
+.RedesSocias {
+  padding: 0.5em;
+  border: 2px solid white;
+  margin: 0.3em;
+  border-radius: 5em;
+  color: white;
+  width: 3em;
+  justify-content: center;
+  display: flex;
+  height: 3em;
+  align-items: center;
+}
+
+.asideMenu {
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  border: 1px solid black;
+  height: 100%;
+  align-items: flex-end;
+  background-color: #191919;
+  color: white;
+}
+.ConteudoMenuLateralasideCelll {
+  color: white;
+  font-weight: 2em;
+  width: 13em;
+  line-height: 2em;
+  border: none;
+}
+.ColorTextMenu {
+  color: #a98263 !important;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.ColorTextMenu:hover {
+  color: white !important;
+  font-size: 1.4em;
+  background-color: #a98263;
+}
+
+.mainMenu {
+  height: 100%;
+  left: 19%;
+  position: absolute;
+  background-color: #282828;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  line-height: 3.6em;
+}
+
+@media (max-width: 775px) {
+}
+@media (min-width: 775px) {
+}
+@media (max-width: 1084px) {
+  .ConteudoThisMenu {
+    display: none;
+  }
+}
